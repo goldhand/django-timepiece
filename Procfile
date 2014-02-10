@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath="$PWD/django-timepiece" config.wsgi:application
